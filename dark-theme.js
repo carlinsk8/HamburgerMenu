@@ -37,7 +37,7 @@ export default function DarkTheme(btn, dark){
 
 
 
-d.addEventListener("DOMContentLoaded", (e)=>{
+d.addEventListener("DOMContentLoaded", (_)=>{
     if(ls.getItem("theme") === null){
         ls.setItem("theme", "light");
 
